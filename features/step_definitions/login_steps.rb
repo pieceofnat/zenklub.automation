@@ -7,6 +7,6 @@ Quando("submeto minhas credenciais com {string} e {string}") do |email, senha|
 end
 
 Então("devo ser redirecionado para a área logada") do
-  expect(page).to have_current_path("https://zenklub.com.br/profile/sessions", wait: 15)
-  expect(page).to have_button("Agendar Sessão")
+  expect(page).to have_current_path("https://zenklub.com.br/profile/sessions", wait: 10)
+  expect(page).to have_css "#user_menu .user_info span"
 end

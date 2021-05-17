@@ -13,7 +13,7 @@ Quando("clico na opção {string}") do |nossos_especialistas|
 end
 
 Quando("no primeiro especialista listado, clico no botão {string}") do |botao_gostei|
-  find(".professional-link a", text: botao_gostei, match: :first).click
+  find(".professional-link a", text: botao_gostei, match: :first, wait: 5).click
   # find(".container.professional-container .btn", match: :first, wait: 10).click
 end
 
