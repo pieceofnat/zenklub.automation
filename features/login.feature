@@ -5,7 +5,7 @@ Funcionalidade: Login
     Quero acessar o Zenklub com meu email e senha
     Para que eu possa agendar e visualizar minhas sessões
 
-    @happy
+@login-com-sucesso
     Esquema do Cenario: Login do usuário com sucesso
         Dado que acesso a página de Login
         Quando submeto minhas credenciais com "<email>" e "<senha>"
