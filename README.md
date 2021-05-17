@@ -32,4 +32,4 @@ Para executar todas as features de uma vez só: `cucumber`
 
 Para executar uma feature por vez
 * Cenário de login com sucesso: `cucumber -t @login-com-sucesso`
-* Cenário de agendar primeira sessão: `cucumber -t @agendar-primeira-sessao`
+* Cenário de agendar primeira sessão: `cucumber -t @agendar-primeira-sessão`
