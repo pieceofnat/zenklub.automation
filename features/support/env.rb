@@ -1,6 +1,5 @@
 require "capybara"
 require "capybara/cucumber"
-require "allure-cucumber"
 
 require_relative "actions"
 
